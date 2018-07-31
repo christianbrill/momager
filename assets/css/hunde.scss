@@ -1,0 +1,72 @@
+body {
+    background-color: #fff;
+}
+
+.container {
+    margin-bottom: 70px;
+
+    p {
+        color: #000;
+        text-align: left;
+    }
+
+    img {
+        height: auto;
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    #accordion {
+        h3 {
+            background-color: #C4E538;
+            border-radius: 3px;
+            color: #000;
+            font-size: 18px;
+            padding: 10px;
+
+            &:active, &:focus {
+                outline: none;
+            }
+
+            &.item-dark {
+                background-color: #98b517;
+                color: #fff;
+            }
+        }
+
+        .redewendung {
+            color: crimson;
+            font-style: italic;
+
+            &::before {
+                content: '"';
+            }
+
+            &::after {
+                content: '" \A';
+                white-space: pre;
+            }
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: bolder;
+            border-bottom: 2px solid #000;
+        }
+
+        ul li {
+            color: #000;
+            text-align: left;
+        }
+    } // .accordion end
+
+    blockquote {
+        border-left: 2px solid #badc58;
+        padding-left: 20px;
+    }
+
+    .author-name {
+        font-style: italic;
+        font-size: 13px;
+    }
+} // .container end

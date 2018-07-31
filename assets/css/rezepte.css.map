@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,WAAW;CAChC",
+    "sources": [
+        "rezepte.scss"
+    ],
+    "names": [],
+    "file": "rezepte.css"
+}

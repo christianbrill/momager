@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+}
+
+.gallery_row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 3px;
+}
+
+.gallery_row .gallery_column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 3px;
+}
+
+.gallery_row .gallery_column img {
+  margin-top: 5px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .gallery_column {
+    flex: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .gallery_column {
+    flex: 50% !important;
+    max-width: 50% !important;
+  }
+}
+/*# sourceMappingURL=erinnerungen.css.map */

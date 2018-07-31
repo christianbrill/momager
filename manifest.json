@@ -1,0 +1,21 @@
+{
+    "name": "Mom & Dad",
+    "short_name": "Mom & Dad",
+    "start_url": "index.html",
+    "icons": [
+        {
+            "src": "assets/img/icons/paw.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "assets/img/icons/paw.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "display": "standalone",
+    "description": "Appreciation app for the best parents.",
+    "lang": "de-DE",
+    "dir": "ltr"
+}

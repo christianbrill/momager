@@ -1,0 +1,43 @@
+body {
+  background-color: #2d3436;
+}
+
+.music_select_flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.music_select_flexbox .music_select_button {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 4px 4px 1px #FD5B78;
+  color: #fff;
+  display: flex;
+  font-size: 25px;
+  height: 200px;
+  justify-content: center;
+  margin: 20px;
+  width: 230px;
+}
+
+.music_select_flexbox .music_select_button.achtizger {
+  background-image: url("../img/80s.jpg");
+}
+
+.music_select_flexbox .music_select_button.schlager {
+  background-image: url("../img/schlager.jpg");
+}
+
+.music_select_flexbox .music_select_button span {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 70%;
+}
+/*# sourceMappingURL=musik.css.map */

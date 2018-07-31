@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #FF9966;
+}
+
+::-moz-selection {
+  background: #FF9966;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+p, ul {
+  color: #fff;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+ul.homepage-info {
+  padding-left: 15px;
+  text-align: left;
+}
+
+ul.homepage-info li {
+  list-style: none;
+}
+
+ul.homepage-info li:before {
+  color: #CCFF00;
+  content: '\00a4';
+  display: inline-block;
+  height: 15px;
+  margin-right: 8px;
+  width: 17px;
+}
+
+a {
+  color: #FF9966;
+  text-decoration: none;
+}
+
+a:focus, a:active, a:hover {
+  color: #FF9966;
+  text-decoration: none;
+}
+
+.scale-lower {
+  transition-duration: 0.1s;
+}
+
+.scale-lower:active {
+  transform: scale(0.95);
+}
+
+.back_button {
+  background-color: #FF9966;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+}
+
+#scroll_top {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: crimson;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.important_word {
+  color: #CCFF00;
+  font-weight: bolder;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.splashscreen {
+  align-items: center;
+  background-color: #FF9966;
+  display: flex;
+  font-family: 'Bungee Inline', 'Arial Black', sans-serif;
+  font-size: 25px;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+}
+
+.splashscreen__box {
+  height: 200px;
+  width: 200px;
+}
+
+.splashscreen__icon {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 70px;
+  margin: 0 auto 15px auto;
+  width: 100px;
+}
+
+.homepage_container {
+  margin-top: 25px;
+}
+
+.navbar {
+  border-bottom: 3px double #FF9966;
+}
+
+.nav-link.transition {
+  display: flex;
+  align-items: center;
+}
+
+.nav_icon {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 30px;
+  margin-right: 10px;
+  width: 30px;
+}
+
+.nav_icon__scroll {
+  background-image: url("../img/icons/Spell_Scroll.svg");
+}
+
+.nav_icon__spider {
+  background-image: url("../img/icons/Poison_Spider.svg");
+}
+
+.nav_icon__magic {
+  background-image: url("../img/icons/Destructive_Magic.svg");
+}
+
+.nav_icon__map {
+  background-image: url("../img/icons/Adventure_Map.svg");
+}
+
+.nav_icon__food {
+  background-image: url("../img/icons/Food.svg");
+}
+
+.nav_icon__medusa {
+  background-image: url("../img/icons/Medusa.svg");
+}
+
+.nav_icon__centaur {
+  background-image: url("../img/icons/Centaur.svg");
+}
+
+.date_time {
+  background-color: #fff;
+  border-radius: 25px;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  width: 250px;
+}
+
+.date_time .date, .date_time .time {
+  display: block;
+  font-family: monospace;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

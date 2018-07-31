@@ -1,0 +1,37 @@
+body {
+    background-color: #fbe9e9;
+}
+
+.name-item {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+h2 {
+    font-size: 22px;
+	margin: 20px;
+	text-align: center;
+}
+
+table, tr, th, td {
+	border-color: black !important;
+}
+
+#accordion {
+    h3 {
+        background-color: #f5cd79;
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+
+        &:active, &:focus {
+            outline: none;
+        }
+
+        &.item-dark {
+            background-color: #98b517;
+            color: #fff;
+        }
+    }
+}

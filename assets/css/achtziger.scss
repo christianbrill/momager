@@ -1,0 +1,29 @@
+body {
+    background-image: url("../img/cassette.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.achtziger {
+    a:focus, a:active {
+        transform: scale(0.98);
+    }
+
+    div.cp_embed_wrapper {
+        margin: 15px 0;
+    }
+
+    div#embed-nav, ul.code-types {
+        display: none !important;
+    }
+}
+
+#embed-nav {
+    display: none !important;
+}
+
+body > div.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

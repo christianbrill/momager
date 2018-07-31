@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mom & Dad</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Mom & Dad">
+    <link rel="apple-touch-icon" href="assets/img/icons/paw.png">
+    <meta name="msapplication-TileImage" content="assets/img/icons/paw.png">
+    
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Bungee+Inline" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- My stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- JSON Manifest -->
+    <link rel="manifest" href="manifest.json">
+</head>
+<body class="homepage">
+    <!-- Splashscreen -->
+    <div class="splashscreen">
+        <div class="splashscreen__box">
+            <div class="splashscreen__icon"></div>
+            <div class="splashscreen__text"></div>
+        </div>
+    </div> 
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand transition" href="index_no_splash.html">Menü</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link transition" href="pages/erinnerungen.html"><span class="nav_icon nav_icon__scroll"></span>Brilliante Erinnerungen
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link transition" href="pages/tierisches.html"><span class="nav_icon nav_icon__spider"></span>Tierisches</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link transition" href="pages/musik.html"><span class="nav_icon nav_icon__magic"></span>Musik</a>
+                </li>
+                <li class="nav-item transition">
+                    <a class="nav-link" href="pages/wissenswertes.html"><span class="nav_icon nav_icon__map"></span>Wissenswertes</a>
+                </li>
+                <li class="nav-item transition">
+                    <a class="nav-link" href="pages/rezepte.html"><span class="nav_icon nav_icon__food"></span>Rezepte</a>
+                </li>
+                <li class="nav-item transition">
+                    <a class="nav-link" href="pages/spassiges.html"><span class="nav_icon nav_icon__medusa"></span>Spaßiges</a>
+                </li>
+                <li class="nav-item transition">
+                    <a class="nav-link" href="pages/laufen.html"><span class="nav_icon nav_icon__centaur"></span>Laufen</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container homepage_container">
+        <div class="row">
+            <div class="col-12">
+                <div class="date_time">
+                    <span class="date"></span>
+                    <span class="time"></span>
+                </div>
+
+                <p>Willkommen zu eurer eigenen App, <span class="important_word">Mama</span> und <span class="important_word">Papa</span> (und wer auch sonst noch so hier vorbeischaut)!</p>
+                <p>Ich hab lange überlegt, was ich euch denn mal schenken könnte und hab mir gedacht, dass wir ja mittlerweile alle Handys benutzen und das bedeutet, dass ihr euch sicher über eine eigene App freuen würdet. Also hab ich mal fix eine für euch gebastelt.</p>
+                <p>Natürlich ist dies hier nicht die schönste oder kreativste App, aber ich hab versucht, sie so persönlich wie möglich zu gestalten,
+                hoffe also, dass sie euch gefällt! :)</p>
+                <p>Hier eine kleine Übersicht der Dinge, die ihr hier machen oder finden könnt:</p>
+                <ul class="homepage-info">
+                    <li>Familienfotos und -erinnerungen <a class="transition" href="pages/erinnerungen.html">(hier)</a></li>
+                    <li>Informationen über die Hundepflege, falls ihr mal Fragen habt und Mone grad nicht in der Nähe ist <a class="transition" href="pages/tierisches.html">(hier)</a></li>
+                    <li>Hört euch eure Lieblingslieder aus euren Lieblingsgenres an <a class="transition" href="pages/musik.html">(hier)</a></li>
+                    <li>Infoecke über eure Lieblingstiere <a class="transition" href="pages/tierisches.html">(hier)</a></li>
+                    <li>Findet leicht nachkochbare Rezepte für jeden Tag und jede Gelegenheit <a class="transition" href="pages/rezepte.html">(hier)</a></li>
+                    <li>Macht euch über das Laufen schlau (Geschichte, vergangene und zukünftige Marathons und auch Informationen zu den richtigen Schuhen, etc.) <a class="transition" href="pages/laufen.html">(hier)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- My JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

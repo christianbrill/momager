@@ -1,0 +1,71 @@
+body {
+  background-color: #fff;
+}
+
+.container {
+  margin-bottom: 70px;
+}
+
+.container p {
+  color: #000;
+  text-align: left;
+}
+
+.container img {
+  height: auto;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.container #accordion h3 {
+  background-color: #C4E538;
+  border-radius: 3px;
+  color: #000;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.container #accordion h3:active, .container #accordion h3:focus {
+  outline: none;
+}
+
+.container #accordion h3.item-dark {
+  background-color: #98b517;
+  color: #fff;
+}
+
+.container #accordion .redewendung {
+  color: crimson;
+  font-style: italic;
+}
+
+.container #accordion .redewendung::before {
+  content: '"';
+}
+
+.container #accordion .redewendung::after {
+  content: '" \A';
+  white-space: pre;
+}
+
+.container #accordion h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  border-bottom: 2px solid #000;
+}
+
+.container #accordion ul li {
+  color: #000;
+  text-align: left;
+}
+
+.container blockquote {
+  border-left: 2px solid #badc58;
+  padding-left: 20px;
+}
+
+.container .author-name {
+  font-style: italic;
+  font-size: 13px;
+}
+/*# sourceMappingURL=hunde.css.map */
